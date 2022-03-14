@@ -1,0 +1,38 @@
+{
+  "type" : "evillarvamanhostile",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "larvahead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "larvachest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "larvalegs", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [
+              "wormgun"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

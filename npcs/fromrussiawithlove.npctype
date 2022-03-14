@@ -1,0 +1,52 @@
+{
+  "type" : "fromrussiawithlove",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "In kosmos, you survey planets. In Soviet kosmos, planets survey you!",
+            "Good day, komrade! Ve are glad to see you aboard our shuttle! Feel at home!",
+            "Another space komrade! Amazing!",
+            "The Protektorate ideas sound vonderful! Exploration, kooperation, unity! Too bad its kapital got destroyed.",
+            "Why is everyone speaking English? I though there vould be more strange languages in kosmos. Also, why not Russian?",
+            "Ghbdtn!... Sorry, I vanted to say hello!",
+            "Those penguin pirates are very annoying! You kannot katch them, they alvays slip out of your hands!",
+            "Some veird green aliens told us that red things go faster, so that's why ve paint everything red. Oh, and bekause it's the color of revolution, of kourse.",
+            "You kall it a protektion pack? Nah, give it to me and I vill make it into a real protektion pack. Trust me, I'm the engineer!",
+            "One day ve vill find a good planet and build a new kolony for humans. And for aliens, too!",
+            "Ve are eskaping to ONE PLACE that hasn't been korrupted by kapitalism! SPACE!!!",
+            "No, ve have no vodka, stop asking."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ushankahead", "parameters" : { "colorIndex" : 0 } }, { "name" : "bearhead", "parameters" : { "colorIndex" : 0 } }, { "name" : "humantier1head", "parameters" : { "colorIndex" : 0 } }, { "name" : "industrialcrewhead", "parameters" : { "colorIndex" : 4 } }, { "name" : "foundrygoggleshead", "parameters" : { "colorIndex" : [4] } }, { "name" : "visorhead", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "chest" : [
+              { "name" : "spacesuitchest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "back" : [
+              { "name" : "coldprotectionback", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "spacesuitlegs", "parameters" : { "colorIndex" : 4 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

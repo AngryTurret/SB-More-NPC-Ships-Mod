@@ -1,0 +1,55 @@
+{
+  "type" : "carlthemadman",
+  "baseType" : "generictenant",
+
+  "npcname" : "Carl the Madman",
+  "identity" : {
+    "gender" : "male"
+  },
+
+ "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "I did it! I launched my house in space! Who's a madman now?!",
+            "Finally, my dream came true! Having the vast emptiness of the cosmos right on your lawn is amazing!",
+            "They called me crazy... They said I was wasting my time... But now, here I am. Traveling space with my own house.",
+            "At least I don't have to pay taxes now! I guess.",
+            "Those angry asteroid things are such pests! I'm so tired of them!",
+            "My friend constructed an airship using many balloons and his own house. I took one step further.",
+            "Ha ha! Yes! I launched our house in space! And she told me it wouldn't work!",
+            "Guess how much I spent on all these engines and stuff. You won't believe it if I told you.",
+            "After all these years, I achieved my goal! My house is in space! And now... well... I didn't really think this through.",
+            "What's the weather outside? Meteor shower, eh?",
+            "You won't find any neighborhood quieter than ours! It's space after all!",
+            "Sooo here's the deal. I was bored so I turned our house into a spacecraft. The problem is, I have no idea how to turn this thing back. Got any ideas?"
+          ]
+        }
+      }
+    }
+  },
+
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "thinkingcaphead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [0, 1, 2] } }
+            ],
+            "legs" : [
+              { "name" : "hunterlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

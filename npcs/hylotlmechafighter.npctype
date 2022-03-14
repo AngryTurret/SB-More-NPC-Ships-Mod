@@ -1,0 +1,35 @@
+{
+  "type" : "hylotlmechafighter",
+  "baseType" : "base",
+
+  "damageTeamType" : "enemy",
+  "damageTeam" : 2,
+
+  "scriptConfig" : {
+    "behavior" : "lounger",
+
+    "dialog" : {
+      "converse" : {
+        "hylotl" : {
+          "default" : [
+            "Wait, you're not supposed to talk with me!",
+            "What... What am I doing here? I have to stay in my mecha!"
+          ]
+        }
+      }
+    }
+  },
+
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "mechpilothead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "premierchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "premierpants", "parameters" : { "colorIndex" : 0 } } ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type" : "alpacablacksmithhostile",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/alpaca.config:attack",
+      "reattack" : "/dialog/alpaca.config:reattack",
+      "killedTarget" : "/dialog/alpaca.config:killedTarget",
+      "lostTarget" : "/dialog/alpaca.config:lostTarget",
+      "outOfSight" : "/dialog/alpaca.config:outOfSight",
+      "cheerOn" : "/dialog/alpaca.config:cheerOn",
+      "cantReach" : "/dialog/alpaca.config:cantReach"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "alpacablacksmithhead", "parameters" : { "colorIndex" : [3] } }
+            ],
+            "chest" : [
+              { "name" : "alpacaguardchest", "parameters" : { "colorIndex" : [3] } }
+            ],
+            "legs" : [
+              { "name" : "alpacaguardlegs", "parameters" : { "colorIndex" : [3] } }
+            ],
+            "primary" : [
+              "npcshortsword",
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

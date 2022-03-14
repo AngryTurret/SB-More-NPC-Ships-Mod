@@ -1,0 +1,55 @@
+{
+  "type" : "agarancaptainplus",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/shroom.config:hail",
+      "reattack" : "/dialog/shroom.config:hail",
+      "killedTarget" : "/dialog/shroom.config:hail",
+      "lostTarget" : "/dialog/shroom.config:hail",
+      "outOfSight" : "/dialog/shroom.config:hail",
+      "cheerOn" : "/dialog/shroom.config:hail",
+      "cantReach" : "/dialog/shroom.config:hail"
+    }
+  },
+
+  "dropPools" : [ "money" ],
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "agarancaptainplushead", "parameters" : { "colorIndex" : [0, 4] } } ],
+            "chest" : [ { "name" : "florantier4chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier4pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcshortsword"
+            ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ],
+            "alt" : [
+              { "name" : "mushroomshield" }
+            ]
+          }
+        ] ]
+    ]
+  },
+ "statusControllerSettings" : {    
+    "stats" : {
+	  "maxHealth" : {
+        "baseValue" : 150.0
+      },
+	"poisonStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

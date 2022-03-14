@@ -1,0 +1,46 @@
+{
+  "type" : "friendlycultistspy1",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "Don't mind me. There is nothing suspicious about me. Mind your business. Please.",
+            "I'm not a spy, I swear... Don't look at me like that! I'm not lying!",
+            "What are you looking at? Never seen an Agaran before?",
+            "I'm a tiny mushroom. A tiny, adorable mushroom. Please, go away.",
+            "It's seriously difficult to focus with those filthy Froggs around... Oh hey! Didn't see you there! I'm not a spy!",
+            "Hoom hoom! Hoom... I wonder what it actually means... AHEM. Hoom.",
+            "Uh... Ribbit! I mean hoom! I mean... Whatever those mushroom guys say!",
+            "Hey, what do you want? Uh, I mean hoom hoom!",
+            "...what? Is there anything wrong with my completely normal Agaran face?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "shroomdisguisehead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

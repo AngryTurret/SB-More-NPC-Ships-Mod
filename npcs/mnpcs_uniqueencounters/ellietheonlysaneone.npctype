@@ -1,0 +1,54 @@
+{
+  "type" : "ellietheonlysaneone",
+  "baseType" : "generictenant",
+
+  "npcname" : "Ellie",
+  "identity" : {
+    "gender" : "female"
+  },
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "He turned our house into a spaceship! What kind of a lunatic would do that?!",
+            "I told him to forget his crazy ideas about space but he didn't listen! Typical Carl! Now we're stuck out there!",
+            "Where is our dog? Don't tell me he was left behind!",
+            "I wish I married Frank instead.",
+            "How are we supposed to take our daughter from summer camp now?",
+            "Of course he refused to take my mother with us. Men are always like that!",
+            "This is embarrassing...",
+            "I can't believe it's happening! He sold our car to finish this... This... Just look around! We're in space!",
+            "WHY WOULD ANYONE WANT THEIR HOUSE IN OUTER SPACE, CARL?!",
+            "My husband is out of his mind! Look what he did to our lovely house! This is madness!",
+            "Have you got any food supplies on your ship? We're running out of milk and vegetables.",
+            "Could you somehow land our house back on our planet? I'm not sure which direction it is though... It's all your fault, Carl!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "protectorateflowerhead", "parameters" : { "colorIndex" : 0 } }, { "name" : "glasses5head", "parameters" : { "colorIndex" : 0 } }, { "name" : "glasses4head", "parameters" : { "colorIndex" : 0 } }, { "name" : "scientisthead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "summerchest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "summerpants", "parameters" : { "colorIndex" : 4 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

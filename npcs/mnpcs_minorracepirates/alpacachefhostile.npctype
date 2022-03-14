@@ -1,0 +1,38 @@
+{
+  "type" : "alpacachefhostile",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/alpaca.config:attack",
+      "reattack" : "/dialog/alpaca.config:reattack",
+      "killedTarget" : "/dialog/alpaca.config:killedTarget",
+      "lostTarget" : "/dialog/alpaca.config:lostTarget",
+      "outOfSight" : "/dialog/alpaca.config:outOfSight",
+      "cheerOn" : "/dialog/alpaca.config:cheerOn",
+      "cantReach" : "/dialog/alpaca.config:cantReach"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "alpacachefhead", "parameters" : { "colorIndex" : [0, 2] } }
+            ],
+            "chest" : [
+              { "name" : "alpacavillagerchest", "parameters" : { "colorIndex" : [0, 2] } }
+            ],
+            "legs" : [
+              { "name" : "alpacavillagerlegs", "parameters" : { "colorIndex" : [0, 2] } }
+            ],
+            "primary" : [
+              "npcdagger"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

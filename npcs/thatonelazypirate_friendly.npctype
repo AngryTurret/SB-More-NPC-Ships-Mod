@@ -1,0 +1,46 @@
+{
+  "type" : "thatonelazypirate_friendly",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "So you're raiding our spaceship, right? You know, whatever, those guys down there are jerks anyway. Just don't ruin this room, okay?",
+            "Hey, wait, don't shoot! I'm friendly! I'm only here because my sister is also a space pirate!",
+            "So... Are you from the Protectorate? Like, didn't their headquarters get eaten by a giant squid or something?",
+            "Oh hey there. Don't mind me, just chillin'. Not even armed. You can take some snacks from the fridge if you want.",
+            "Wait-wait-wait, I'm not THAT kind of a pirate! All I did was LEGALLY DOWNLOAD some video games! Don't hurt me!",
+            "Oh come on! I've just finished repairing those chairs! Go raid some other parts of the ship!",
+            "Well, uh... I don't have any weapons with me, so maybe you could just... you know... spare me? Please?",
+            "No, I'm not going to fight you. Yeah, really. I'm on strike because my boss doesn't pay me enough pixels.",
+            "Do we really have to fight? I'd rather not."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "headbandhead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "explorerchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "explorerlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

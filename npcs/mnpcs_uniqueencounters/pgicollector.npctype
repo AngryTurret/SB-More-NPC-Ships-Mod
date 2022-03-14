@@ -1,0 +1,55 @@
+{
+  "type" : "pgicollector",
+  "baseType" : "generictenant",
+
+  "npcname" : "Generic Item Collector",
+  "identity" : {
+    "gender" : "male"
+  },
+
+ "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "novakid" : {
+          "default" : [
+            "Behold, stranger! The infinite power of perfectly generic items! All of it in my perfect armor! And it's GREEN!",
+            "Do you really think any other resource in this universe can compete with perfectly generic items? Don't be ridiculous!",
+            "Static cells, venom samples... I can't believe some people sell perfectly generic items at such a low price! They don't understand the REAL value of precious green cubes!",
+            "People never understand the idea behind my good old spacecraft. It's not simplistic, it's perfect! Just like the cubes! Why do I have to explain this every time?",
+            "Greetings! I am the one who's looking for perfectly generic items all over the galaxy... Because they must be mine!",
+            "The Ruin? Who cares about some tentacle monster when there are perfectly generic items lying around? THAT'S the real force, stranger!",
+            "Maybe it's possible for you to collect enough perfectly generic items, but don't forget they belong to me anyway! One day I will become the master of all the perfect cubes!",
+            "You know, one Frogg told me it's not easy being green. Well, I just want to tell you that's NONSENSE! Green is the most powerful color in the galaxy!",
+            "Embrace the perfection of green cubes, stranger! Don't be an ignorant fool like others!",
+            "Could you please install some mods and then disable them? It will spawn more perfectly generic cubes across the galaxy, and I'd like to collect more.",
+            "Some fool compared perfectly generic items to angel statues. What is that even supposed to mean?",
+            "I need more perfectly generic items... More... WAY MORE!..."
+          ]
+        }
+      }
+    }
+  },
+
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "perfecthead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "perfectchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "perfectpants", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

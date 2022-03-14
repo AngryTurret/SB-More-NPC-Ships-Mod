@@ -1,0 +1,67 @@
+{
+  "type" : "steamspringfan1",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "glitch" : {
+          "default" : [
+            "Pleased. This brass technology isn't very advanced, but it sure does its job! Perhaps you could use some, too.",
+            "Sarcastic. Steam technology is sure up-to-date. Totally not cheesy and impractical. With no drawbacks whatsoever.",
+            "Sad. Back on my planet, people didn't want to embrace steam technology and wanted to burn me for liking it. So I had to leave them behind.",
+            "Proud. How do you like our spaceship? Isn't it impressive?",
+            "Polite. Good day... Wait, are there day and night in space? I forgot again.",
+            "Annoyed. All those pipes collect so much dust. You have to clean them every day.",
+            "Wistful. Perhaps with this advanced steam technology, I could build a time machine!",
+            "Cheerful. Don't you just love the intricacies of steam mechanics?",
+            "Concerned. I'm not entirely sure whether it's safe to fly a ship made of pipes, cogs and brass. I like the aesthetics, though.",
+            "Inspired. There are so many people out there whom we can show our brass technology. Maybe we should start with Florans?",
+            "Happy. Pipkins are truly adorable! One day I will adopt one.",
+            "Thoughtful. I wonder why everyone is into cyberpunk nowadays. Steampunk may be old but it's much cozier and doesn't have those tasteless prostheses.",
+            "Puzzled. I'm not brave enough to ask our captain but I have a question. What do all those pipes actually do? There are so many of them."
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "This ship ain't got no business havin' so many pipes! What are they for?",
+            "Howdy, pardner! How do you like our brass ship? Stylish, eh?",
+            "I forgot where I put muh wrench again. I need it t' fix some pipes on the lower deck.",
+            "I wanna bring some o' this steam tech back t' my village. Folks'll be happy to see it.",
+            "G'day, fella! You wanna see some miracles o' good ol' steampunk engineering? We've got a lot of it, trust me.",
+            "Glitch fellas may be funny at times, but they really know how t' make cogs and brass into somethin' beautiful. They're robots, so it makes sense, right?",
+            "I used t' be a Peacekeeper back in the day, but now I'm retired. Stuff made o' brass is my new passion.",
+            "What do ya think 'bout gettin' some of our clockwork tech on your spaceship? It may look dated, but it does its job just fine.",
+            "You don't look like one o' those space bandits, so you may stay 'ere for now.",
+            "Those lights ain't shine any brighter than my own body. Gotta work on it soon!",
+            "If this ship gets infested with Lumoths again, I'm leavin'! Those lil' glowy bats get on my nerves every time!",
+            "Watch your step, pardner, the floor's a bit ol' and rusty.",
+            "Our cap'n is a wise fella. He knows much about all this steampunk stuff. Better than most of us, I say."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "clocktophathead", "parameters" : { "colorIndex" : 11 } }, { "name" : "fancyhead", "parameters" : { "colorIndex" : 11 } }, { "name" : "electroniumhat", "parameters" : { "colorIndex" : 11 } }, { "name" : "pilothead" }, { "name" : "copperarmorhead" }, { "name" : "tophathead", "parameters" : { "colorIndex" : 11 } }, { "name" : "toptophathead", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "chest" : [
+              { "name" : "moneybagschest", "parameters" : { "colorIndex" : 1 } }, { "name" : "novakidwaistcoat", "parameters" : { "colorIndex" : 11 } }, { "name" : "novakidwaistcoat", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "piratelegs", "parameters" : { "colorIndex" : 11 } }, { "name" : "novatier4pants", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

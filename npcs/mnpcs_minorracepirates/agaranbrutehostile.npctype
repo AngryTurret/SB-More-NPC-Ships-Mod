@@ -1,0 +1,32 @@
+{
+  "type" : "agaranbrutehostile",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/shroom.config:hail",
+      "reattack" : "/dialog/shroom.config:hail",
+      "killedTarget" : "/dialog/shroom.config:hail",
+      "lostTarget" : "/dialog/shroom.config:hail",
+      "outOfSight" : "/dialog/shroom.config:hail",
+      "cheerOn" : "/dialog/shroom.config:hail",
+      "cantReach" : "/dialog/shroom.config:hail"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "agaranbrutehead", "parameters" : { "colorIndex" : 0 } } ],
+            "back" : [ { "name" : "agaranbruteback", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "florantier2chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier2pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npchammer"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

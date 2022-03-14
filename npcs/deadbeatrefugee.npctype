@@ -1,0 +1,55 @@
+{
+  "type" : "deadbeatrefugee",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "Space is boring! I don't want to be in space anymore! Let's land somewhere already!",
+            "Our homeworld was scorched by the sun... And my homies kept telling me that climate change wasn't real! Now look where we are!",
+            "Oh hi there! We are looking for a new planet to settle on because our homeworld is a little bit too hot these days. Do you happen to know any good planets?",
+            "I don't want to talk with anybody on this ship. They didn't allow me to take my pet Fennix with us, and I'm still sad about it.",
+            "Not gonna lie, I don't even know how our ship was able to take off. Not that I care, though, I'm just glad that we're finally far away from burnt wastelands.",
+            "I found a spider web in a corner yesterday. Never knew spiders can survive in low-gravity environments. But I know that I need a flamethrower now.",
+            "Why is everyone calling us deadbeats? I mean, yeah, we can be lazy sometimes, but at least we put enough effort into building this shuttle.",
+            "Oh hey, a guest from space! Sorry, we have no tea left for you. Nor cookies. In fact, we're running out of food and this is very, very bad.",
+            "I'm blue da ba dee da ba die... Oh sorry, didn't see you approaching.",
+            "It's too cold! I wouldn't mind a cup of hot chocolate. And a pie. And sweet cookies, too... Okay, great, now I'm cold and hungry.",
+            "Judging by that matter thingy in your hand, you're one of those Protectorate dudes, right? Do you provide any aid to refugees? We definitely could use some.",
+            "Guys, I'm telling you, we need to turn back! I forgot to turn off my oven before we left!"
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "deadbeatscroungerhornshead", "parameters" : { "colorIndex" : [0, 11] } }, 
+              { "name" : "deadbeatrefugeehead_1", "parameters" : { "colorIndex" : [0, 11] } }, 
+              { "name" : "deadbeatrefugeehead_2", "parameters" : { "colorIndex" : [0, 11] } }, 
+              { "name" : "deadbeatrefugeehead_3", "parameters" : { "colorIndex" : [0, 11] } }, 
+              { "name" : "deadbeatrefugeehead_4", "parameters" : { "colorIndex" : [0, 11] } }, 
+              { "name" : "deadbeatscroungerhornmaskhead", "parameters" : { "colorIndex" : [0, 11] } }
+            ],
+            "chest" : [
+              { "name" : "deadbeatscroungerstrapschest", "parameters" : { "colorIndex" : [0, 1, 2, 11] } }
+            ],
+            "legs" : [
+              { "name" : "deadbeatscroungerstrapslegs", "parameters" : { "colorIndex" : [0, 1, 2, 11] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

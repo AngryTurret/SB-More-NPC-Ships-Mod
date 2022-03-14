@@ -1,0 +1,36 @@
+{
+  "type" : "penguinpiratebig",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "penguinhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "penguinchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "penguinlegs", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [ "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcshotgun" ]
+          }
+        ] ]
+    ]
+  }
+}

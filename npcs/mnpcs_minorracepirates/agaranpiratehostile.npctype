@@ -1,0 +1,33 @@
+{
+  "type" : "agaranpiratehostile",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/shroom.config:hail",
+      "reattack" : "/dialog/shroom.config:hail",
+      "killedTarget" : "/dialog/shroom.config:hail",
+      "lostTarget" : "/dialog/shroom.config:hail",
+      "outOfSight" : "/dialog/shroom.config:hail",
+      "cheerOn" : "/dialog/shroom.config:hail",
+      "cantReach" : "/dialog/shroom.config:hail"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "shroomhead" }, { "name" : "shroomhead2" }, { "name" : "shroomhead3" }, { "name" : "shroomhead4" } ],
+            "chest" : [ { "name" : "florantier2chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "florantier2pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [
+              "npcshotgun",
+              "npcshortsword",
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

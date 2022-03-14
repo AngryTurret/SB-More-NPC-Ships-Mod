@@ -1,0 +1,83 @@
+{
+  "type" : "friendlycultistblack",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "No need to be nervous, stranger. Our goals are beyond your understanding.",
+            "Ocassus? Uh, no, we don't have anything to do with those xenophobic creeps, I swear.",
+            "The Ruin is nothing. If you only knew there is something way stronger out there...",
+            "Midnight planets keep many dark secrets about this universe, trust me.",
+            "I swear to dark forces, I saw a house with a bunch of thrusters passing by yesterday! I mean there are literal ghosts and living rocks in space, yet nobody wants to believe THAT!?",
+            "Sometimes the Shadows creep me out. They never say anything. Like, at all.",
+            "How many times do I have to explain it's not a stage? We're not trying to be edgelords just to look cool, it's what the eldritch beings demand!",
+            "Fear not, we are perfectly harmless. Mostly.",
+            "Why do we all have to wear those ridiculous hoods?",
+            "Don't worry, we are just passing by. Nothing to be suspicious about.",
+            "Have you ever thought about joining a cult? We could use some newcomers.",
+            "So you're from the Protectorate, eh? What's even so special about it? You can eat as many free calamari rings as you want?",
+            "The terrors that lurk in the night... If you can't beat them, why not join them?"
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "I lost my faith in Kluex long ago. Now I serve new masters.",
+            "Fear us not, stranger, we are perfectly harmless. For now.",
+            "We don't have visitors very often. And honestly, we don't need many of them. Outsiders tend to interfere with our rituals.",
+            "The Protectorate are a cult in their own way. Oh, I'm sorry, WERE a cult in their own way.",
+            "If you don't plan to join us any time soon, you shouldn't really worry about our goals. They are beyond your understanding.",
+            "I doubt you can imagine all the terrors that lurk in the darkness. Some of them are nearly incomprehensible.",
+            "Don't assume we're nothing but malicious zealots. Our deeds can be good, evil and anywhere in between. I agree that they're often shady, though.",
+            "Greetings. We are on our way to the closest midnight planet.",
+            "I like dark hoods and robes. They conceal stains so well.",
+            "I hope one day my feathered brethren will understand that they follow a wrong god. If they only knew the truth...",
+            "Have you ever thought about joining a cult? We could use some newcomers.",
+            "Unlike many other Avians, I'm free of delusions. Kluex isn't worthy of being followed by anyone.",
+            "The terrors that lurk in the night... If you can't beat them, why not join them?"
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Floran likes darkness. It iss the opposssite of fire.",
+            "Floran has sseen things. Sscary things.",
+            "I joined thiss cult recently and sstil don't get what these guyss are doing.",
+            "I enjoy being a member of thiss sscary cult. I get to sstab a lot!",
+            "Join usss. You will alwayss be ssafe from terrors in the dark.",
+            "Dark planetss are very sstrange. Better take a long sspear when you go there.",
+            "Floran ssees nothing but darkness. It's everywhere.",
+            "We're jusst passing by, don't worry about uss. We won't harm you unless we have to.",
+            "Beware the oness who have green eyess. Beware the oness whose bodiess are darker than the night.",
+            "Thiss robe iss very itchy. Floran wantss to take it off but the other cultissts will be angry.",
+            "Our cult iss not dangerous to you. Not yet, no.",
+            "Do you want to join uss? Our cult needs more friendss."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "cultisthead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

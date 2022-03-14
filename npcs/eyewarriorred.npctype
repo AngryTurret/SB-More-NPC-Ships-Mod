@@ -1,0 +1,70 @@
+{
+  "type" : "eyewarriorred",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/eyepatch.config:attack",
+      "reattack" : "/dialog/eyepatch.config:reattack",
+      "killedTarget" : "/dialog/eyepatch.config:killedTarget",
+      "lostTarget" : "/dialog/eyepatch.config:lostTarget",
+      "outOfSight" : "/dialog/eyepatch.config:outOfSight",
+      "cheerOn" : "/dialog/eyepatch.config:cheerOn",
+      "cantReach" : "/dialog/eyepatch.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "eyehead2", "parameters" : { "colorIndex" : 4 } }, { "name" : "eyehead", "parameters" : { "colorIndex" : 4 } }, { "name" : "eyeballhead", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "back" : [
+              { "name" : "eyeballback", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "chest" : [
+              { "name" : "glitchtier4chest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "primary" : [
+              "npceyesword",
+              "npcaxe",
+              "npcbroadsword"
+            ],
+            "alt" : [
+              { "name" : "eyeshield" }
+            ]
+          }
+        ] ]
+    ]
+  },
+ "statusControllerSettings" : {    
+    "stats" : {
+	"poisonStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"electricStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"iceStatusImmunity" : {
+        "baseValue" : 1.0
+      },	  
+	"fireStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+	"specialStatusImmunity" : {
+		"baseValue" : 1.0
+	},
+	"stunImmunity" : {
+		"baseValue" : 1.0    
+      },
+	  "maxHealth" : {
+        "baseValue" : 200.0
+      }
+    }
+  }
+}

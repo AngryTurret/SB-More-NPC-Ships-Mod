@@ -1,0 +1,39 @@
+{
+  "type" : "penguinpirate",
+  "baseType" : "hostile",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "legs" : [
+              { "name" : "penguinvikinghat", "parameters" : { "colorIndex" : [0,2,3,4] } },
+              { "name" : "penguinscanner", "parameters" : { "colorIndex" : [0,2,3] } },
+              { "name" : "penguinberet", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "penguinbandana", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "penguincowboy", "parameters" : { "colorIndex" : [0,1] } },
+              { "name" : "penguinhelmet", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "primary" : [ "npcpistol" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          },
+          {
+            "primary" : [ "npcpistol" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

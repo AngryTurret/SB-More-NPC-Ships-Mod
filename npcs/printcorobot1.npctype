@@ -1,0 +1,47 @@
+{
+  "type" : "printcorobot1",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "glitch" : {
+          "default" : [
+            "Welcome to Print Co., the largest Pixel Printer manufacturer in the galaxy! How can PC_SUPPORT_UNIT help you?",
+            "Welcome to Print Co.! Our Pixel Printers are the best in GALAXY_NAME! Don't hesitate, CLIENT_NAME, try to print something! Whatever you can think of!",
+            "Whatever happens in the galaxy, Print Co. always prioritizes its customers. We make sure our customer service lives up to your expectations. Print Co. - printing our future together!",
+            "Check out our brand new Pixel Printer XD! Now PRODUCT_NAME can accept up to 10% more pixels and has an improved outer casing, so there is no way you can accidentally destroy it while printing dangerous objects!",
+            "ERrOR. PC_SUPPORT_UNIT RAN OuT OF MEMORY. PLEASE COnTACT- ERROR.",
+            "Greetings, CLIENT_NAME, and welcome to Print Co., where all the things imaginable can be easily printed using nothing but your pixels!",
+            "Of course, Letheia Corp offers a lot of amazing products. But what do they know about Pixel Printers? More importantly, can they even produce one? Well, Print Co. sure can!",
+            "Don't let COMPETITOR_NAME delude you. Whatever they claim, Print Co. doesn't support slave labor and respects its employees' rights.",
+            "Why wasting your precious money buying some materials to print with when you can print anything using nothing but pixels themselves? Print Co. knows how to do that!",
+            "Print Co.! The cheapest three-dimensional printing technology in the entirety of cosmos! The quality which has been checked up by- ErROR. ADVERTISEMENT NOT FOunD."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "monitorhead", "parameters" : { "colorIndex" : 5 } }
+            ],
+            "chest" : [
+              { "name" : "shirtchest", "parameters" : { "colorIndex" : 5 } }
+            ],
+            "legs" : [
+              { "name" : "coollegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

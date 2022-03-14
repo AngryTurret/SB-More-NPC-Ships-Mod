@@ -1,0 +1,201 @@
+{
+  "type" : "stationshipcrewmate",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "If any of you tells me one more joke about a certain group of colorful crewmates, I'll scream.",
+            "Unless you're a pirate, don't loot our crates. And even if you are, please, don't.",
+            "Space gets pretty boring after a while. It's always nice to meet somebody new.",
+            "Working on a ship can be a tough career, but it did mean I wasn't on Earth when... It happened.",
+            "Hey, a visitor? We don't get many visitors way out here! Stay a while!",
+            "Do you have your own ship? That's pretty cool!",
+            "Be careful when you explore anomalies. Masteroids and killer robots are everywhere!",
+            "Wow, I, uh, didn't expect to see anyone new around here. Welcome, I guess.",
+            "Space travel still manages to excite me, even to this day.",
+            "Did you come all the way out into deep space just to meet us? That's awesome!",
+            "Does anybody else find it strange that there are angry rocks with faces out there?",
+            "Oh no, I forgot to feed my cat before departure! Everyone, we must turn back immediately! It's an emergency!",
+            "Sorry, no time for small talk! We have a lot of cargo to deliver!",
+            "It's surprising how many anomalies turn out to be mundane space stations, isn't it?",
+            "When I want to fall asleep, I start counting stars. And boy there is enough stars to count.",
+            "I can't wrap my mind around the fact that Earth is gone. But I'm still grateful for being here with my crew.",
+            "You must be from the Terrene Protectorate. It's an honor to meet you, and... I'm sorry. The loss of Earth will not be forgotten.",
+            "You're welcome here as long as you don't mess with any panels or crates. Some people just seem to be into it for some reason.",
+            "Hi there! Welcome aboard!",
+            "There is so much huge stuff in space. I mean, really huge stuff. Do you know how large most stars are?"
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "Don't exploit our hospitality. Just because we invited you doesn't mean that you are permitted to loot our supplies.",
+            "Space pirates are rampant these days. Where are the Peacekeepers when you need them?",
+            "Hello. Don't mind me, I'm just checking if the mechanisms are intact.",
+            "Greetings. Are you in outer space for any specific purpose?",
+            "The Apex can seek solace out here, among the stars. I welcome a quiet life.",
+            "One of the small benefits of life in space is that fleas don't survive easily out here...",
+            "My scientific knowledge is more valuable out here in space than under the oppressive regime of the Miniknog.",
+            "You have a look about you - A look of... Wanderlust?",
+            "I hope that by exiling myself to space, the Miniknog will not come looking for me.",
+            "The most terrifying aspect of the Miniknog regime is that the Apex people are comfortable with the cycle of oppression.",
+            "Big Ape doesn't feel so big from up here.",
+            "Among the stars, looking down upon entire worlds, even an oppressive regime can appear small and insignificant.",
+            "I am meant to be fighting the Miniknog alongside my fellow rebels, but right now I am merely procrastinating.",
+            "The first step towards fighting a dictatorship is to learn. The enemy can take your weapons, but never your knowledge.",
+            "Wandering in the cosmos feels liberating, especially after living under Big Ape's cruel regime.",
+            "Working aboard a cargo ship is exhausting, but it's still better than working for Miniknog. They keep an eye on you all day long.",
+            "I don't know why our captain decided to invite you in the first place, but don't interrupt me while I'm working.",
+            "Without Erchius fuel, we wouldn't be able to meet each other today. We're lucky to have FTL-drives, not all species can afford that.",
+            "I'll be honest, I don't feel very confident around aliens. Luckily, most of them are more or less nice.",
+            "Delivering cargo is difficult but not very stressful. I'm mostly content with my job."
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "Space is full of wonders. If only I had enough time to visit every planet in the galaxy...",
+            "By Kluex, who took my canned food again?! I even put a label with my name on it, come on!",
+            "Welcome to our humble spacefaring vessel! Feel free to look around!",
+            "Welcome, stranger! How kind of you to visit.",
+            "I think I got liquid Erchius in my feathers after refueling the ship earlier... This will stain.",
+            "My name is <selfname>. Are you visiting us for long?",
+            "Have you journeyed into the depths of space recently?",
+            "Ah, yes, another kind guest. Nice to meet you. Sorry about the Protectorate. Can I get back to work now?",
+            "Our scanners have been acting weird lately. I wonder what the deal is.",
+            "It's awkward to admit, but I don't even know what kind of cargo we deliver. It has to be useful... Right?",
+            "May you find strength among the stars, stranger.",
+            "My people used to believe the stars were the many eyes of their god, Kluex. Science, well, says otherwise.",
+            "I miss flying aboard airships. Spaceships are cool, too, but it's not quite the same.",
+            "This suit is too itchy, and I cannot even scratch myself properly. What a bummer.",
+            "Working aboard a cargo spaceship is not easy, but at least you get to see new exciting places.",
+            "The news about the Ruin's awakening is terrifying at best. What if it decides to devour other planets too?",
+            "I heard that our colleagues got raided by penguin pirates. When will those featherless fiends stop violence?",
+            "Once I went into space, I found it hard to keep believing in Kluex. The universe is fascinating on its own, I'm not sure if we have to make up any gods at all.",
+            "Do you like our space vessel? I do my best to keep her in shape.",
+            "Midnight planets are uncanny. Why are they always so dark? Is this some kind of a curse?"
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Confused. So planets have been spheres all along. And I thought they were nothing but flat circles in the sky.",
+            "Excited. I spend much of my life not knowing space even existed, and now I am here!",
+            "Determined. I have come to space to find a professional trade. One day I shall be <selfname>, master engineer!",
+            "Excited. I can't wait to land on yet another planet! I want to see as many strange alien creatures as I can!",
+            "Brooding. I miss seeing the grand castles of my people. Space stations and ships are not very aesthetical, to be honest.",
+            "Worried. Now I am in space, I feel so miniscule. How will I make my mark when I matter so little?",
+            "Amicable. Welcome, spacefarer! I am <selfname>. I wish you well on your travels.",
+            "Curious. Have you always known about space travel? Did you always dream about venturing through the stars?",
+            "Cheerful. Hello! I'm glad to meet you!",
+            "Annoyed. I stared in a window for a while and saw nothing but stars and darkness. Space is not as diverse as some say.",
+            "Worried. Do brain slugs affect Glitch as well? I wouldn't like to become their host and lose my free will again.",
+            "Skeptical. What is the reason behind toxic planets' existence? What kind of a civilization was so irresponsible to ruin many beautiful worlds?",
+            "Thrilled. If our universe has a border somewhere, then what lies beyond it? Is it a part of something even bigger? What do you think?",
+            "Concerned. Beware the All-Seeing Crusaders. They became more prominent and built flying fortresses. I wonder what they're up to.",
+            "Opinionated. Beautiful Attempt! is an overrated mess. Change my mind.",
+            "Thoughtful. Was space created by higher beings, or does it exist on its own? Perhaps we'll never find out.",
+            "Concerned. I thought I'd be free from dangerous monsters when I came to space, but now I hear there are space monsters as well?!",
+            "Eager. Before I gained self-awareness, I hunted monsters for my village. Perhaps I shall do the same here in space?",
+            "Neutral. As long as you don't touch anything, you are welcome here.",
+            "Annoyed. Could you please not open the crates? We must deliver everything in order and safety, otherwise our boss will be mad."
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+            "Perhaps comparing space to an ocean is not very accurate, but I cannot help it. For me it's just as deep and wonderful.",
+            "Oh, a stranger. Pleased to meet you. Now excuse me, I need to rearrange a couple of crates.",
+            "It is always a pleasure to meet a fellow spacefarer, to share knowledge, to learn about the wonders of space... But of course you're here for something else.",
+            "Have you ever run into lone merchants? Some of them sell nothing but useless junk, so be careful.",
+            "The empty blackness of space is like a blank canvas. How I wish I could somehow paint upon it.",
+            "Space is an ocean of sorts. In some small way, it makes me feel at home.",
+            "If space is like a grand ocean, perhaps it too is home to gargantuan beasts?",
+            "I have come to space to find artistic inspiration among the stars...",
+            "There is always new knowledge to find. I have come to space to learn more about our universe.",
+            "What secrets are hidden among the stars? I very much desire to find out.",
+            "I may already be incredibly intelligent, but there is potentially even more to learn out here in space!",
+            "My name is <selfname> - it is a pleasure to make your acquaintance.",
+            "The planets sail across the infinite night, like fish in a grand ocean.",
+            "It is said that most people cannot comprehend the vastness of space. Fortunately, I am intelligent enough to do so.",
+            "Are you accustomed to sailing the empty vast ocean of space?",
+            "To be so small compared to the great scale of all existence... Does space also make you feel insignificant?",
+            "As much as I mourn the loss of Earth, I don't believe that the Protectorate could protect us from similar disasters anyway.",
+            "In space, it is important to keep oneself healthy, both physically and mentally. Never forget it.",
+            "One day I will obtain my own shuttle and fly wherever I want, just like you. I don't want to waste my life packing those rusty crates.",
+            "Be grateful that our captain chose to let you in. We don't usually let anyone run around the decks of our spacecraft."
+          ]
+        },
+        "novakid" : {
+          "default" : [
+            "What do ya think 'bout our spaceship? This bad boy can fit so much cargo in it!",
+            "There ain't no law in space. That's purty ideal for rogues an' villains, ain't it?",
+            "Space is the real wild country, ain't it? Bandits to hunt, bars to drink at... It sure is the life!",
+            "The stars really call out t' me. I guess it jus' feels right bein' up here, closer to 'em.",
+            "Nice t' meet y'all, fella!",
+            "Glowin' like an oil lamp really helps yer stand out in space, don't yer agree?",
+            "A get a lot o' strange looks from folks up here. I guess they ain't used to seein' folks like me round these parts.",
+            "You ain't gonna look me in the eyes, partner? I'm jus' foolin' with yer - I ain't got any eyes!",
+            "Bein' glowin' star folk gets you a lot o' weird looks around these parts.",
+            "Howdy! We ain't get much guests nowadays. Feel free to stay.",
+            "I forgot where I put my scanner again! Does anybody see it?",
+            "Too bad this is just a cargo ship. I'd shoot some space debris with a turret or somethin'.",
+            "It ain't a space train, but this ship is still amazing, methinks. Gets the job done very quick.",
+            "Space's dangerous. You can never be sure what's waitin' for yer out there.",
+            "Ain't you one of those space bandits or anythin'? No? Good, then you may stay.",
+            "I've got a pet Snugget back home. She's adorable, but the crew ain't permittin' me to t' take 'er with me.",
+            "Too busy to talk, gotta fix the vents. Somethin' clogged it.",
+            "You wanna know how much stuff we deliver every day? You wouldn't believe me if I said.",
+        "Hey, partner! Word of advice - don't forget where you're goin', like I did.",
+            "Don't peek into our crates, buddy. There's nothin' excitin' for ya."
+          ]
+        },
+        "floran" : {
+          "default" : [
+            "Floran would rather die sstabbing than live kneeling. That's why Floran iss here.",
+            "Sssoon we'll land on another planet. I hope I can hunt down there a bit. Haven't done sso in a while.",
+            "Floran left Floran's tribe because Floran isss pacifist. Floran finding it... Tough.",
+            "Planetss are bigger than Floran thought. Floran feels very sssmall.",
+            "I wonder how my family iss doing back in my tribe. I hope they eat well and sstab a lot.",
+            "Floran's Greenfinger taught Floran about sspace travel. Now Floran livesss in sssky!",
+            "Floran got lossst during hunt and now Floran here. Floran not quite sssure what happened.",
+            "Floran doesssn't get to hunt much in ssspace. Sssad.",
+            "This sspaceboat flies very fasst. Floran likess it.",
+            "Ssome Florans were members of the Protectorate tribe, too. Are they sstill alive? Are they hunting the giant squid now?",
+            "Floran is very confused about sspace. Why iss it ssso big? How many ssuns are there? Can Floran hunt sspace krakens?",
+            "Sspace is very big. There's a lot thingss to sstab.",
+            "I don't like that ssstrange pink fuel. Ssmells weird.",
+            "In sspace, no one can hear you sstab. Floran knows, Floran sstabbed space monstersss.",
+            "Don't dissstract Floran. Floran musst work. Floran musst recount boxes again.",
+            "Not everyone takess Floran sseriously. Floran does everything Floran's ordered, what's wrong?",
+            "Floran ran away from sscary mushroom people. Floran hasss to hide. Floran hasss to work here.",
+            "Floran didn't want to fight and eat all of Floran's life, ssso Floran came to ssspace inssstead.",
+            "Floran livesss in sssky. Floran higher up than all of Floran's tribe!",
+            "Sspace traveler! Hello!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "industrialcrewhead", "parameters" : { "colorIndex" : 2 } }, { "name" : "glasses5head", "parameters" : { "colorIndex" : 0 } }, { "name" : "mechpilothead", "parameters" : { "colorIndex" : 0 } }, { "name" : "devhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "humantier6achest", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "legs" : [
+              { "name" : "humantier6apants", "parameters" : { "colorIndex" : 2 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

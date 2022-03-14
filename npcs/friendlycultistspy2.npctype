@@ -1,0 +1,46 @@
+{
+  "type" : "friendlycultistspy2",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : {
+        "human" : {
+          "default" : [
+            "Hello! I am, uh, doing a loooot of important stuff here. Nothing suspicious, so don't mind me.",
+            "I'm not a spy, I swear... Don't look at me like that! I'm not lying!",
+            "Oh, I'm not spying or anything, it's just... well... I didn't get my uniform. Yeah. That's all to it.",
+            "Please, don't interrupt me, I'm collecting important data on... Ahem. I mean, I'm busy.",
+            "Why does everyone keep saying I'm not allowed to wear black? That's outrageous!",
+            "Cut it out with staring! There's nothing shady about my appearance! Ask anybody on this ship!",
+            "Don't mind me. There is nothing suspicious about me. Mind your business. Please.",
+            "Day 37. They still don't know I'm not their crewmate. Don't tell them, I want to see when they figure it out.",
+            "...what? Is there anything wrong with my completely normal face?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "grouchohead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : 1 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}
