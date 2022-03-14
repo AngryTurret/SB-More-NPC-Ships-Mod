@@ -1,0 +1,79 @@
+{
+  "metadata" : {
+    "name" : "astronautship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "astronautship_1", "astronautship_2", "astronautship_3", "astronautship_4", "astronautship_5", "astronautship_virtual" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // ASTRONAUT SHUTTLE
+
+    {
+      "name" : "astronautship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_1" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_1.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "astronautship_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_2" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_2.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "astronautship_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_3" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_3.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "astronautship_4",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_4" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_4.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "astronautship_5",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_5" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_5.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "astronautship_virtual",
+      "rules" : [
+        [ "doNotCombineWith", [ "astronautship_virtual" ] ]
+      ],
+      "def" : [ "tmx", "astronautship_virtual.json" ],
+      "chance" : 0.2
+    }
+  ]
+}
