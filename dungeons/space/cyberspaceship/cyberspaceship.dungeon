@@ -1,0 +1,41 @@
+{
+  "metadata" : {
+    "name" : "cyberspaceship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "virtual_pirate1", "virtual_pirate2", "virtual_pirate3" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // CYBERSPACE SHIP
+
+    {
+      "name" : "virtual_pirate1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "virtual_pirate1.json" ]
+    },
+    {
+      "name" : "virtual_pirate2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "virtual_pirate2.json" ]
+    },
+    {
+      "name" : "virtual_pirate3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "virtual_pirate3.json" ]
+    }
+  ]
+}
