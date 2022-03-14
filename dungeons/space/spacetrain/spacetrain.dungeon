@@ -1,0 +1,71 @@
+{
+  "metadata" : {
+    "name" : "spacetrain",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "trainback_1", "trainback_2" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // SPACE TRAIN
+
+    {
+      "name" : "trainback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "trainback_1" ] ]
+      ],
+      "def" : [ "tmx", "trainback_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "trainback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "trainback_2" ] ]
+      ],
+      "def" : [ "tmx", "trainback_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "trainfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "trainfront_1", "trainfront_2", "trainfront_3" ] ]
+      ],
+      "def" : [ "tmx", "trainfront_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "trainfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "trainfront_1", "trainfront_2", "trainfront_3" ] ]
+      ],
+      "def" : [ "tmx", "trainfront_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "trainfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "trainfront_1", "trainfront_2", "trainfront_3" ] ]
+      ],
+      "def" : [ "tmx", "trainfront_3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
