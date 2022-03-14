@@ -1,0 +1,512 @@
+[
+
+  {
+    "op" : "add",
+    "path" : "/spacemerchant",
+    "value" : {
+      "primaryDungeon" : "spacemerchant",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/deadbeatship",
+    "value" : {
+      "primaryDungeon" : "deadbeatship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/froggship",
+    "value" : {
+      "primaryDungeon" : "froggship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/stationship",
+    "value" : {
+      "primaryDungeon" : "stationship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/astronautship",
+    "value" : {
+      "primaryDungeon" : "astronautship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/spacetrain",
+    "value" : {
+      "primaryDungeon" : "spacetrain",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/fcultistship",
+    "value" : {
+      "primaryDungeon" : "fcultistship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/steamspringship",
+    "value" : {
+      "primaryDungeon" : "steamspringship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/gnomefleet",
+    "value" : {
+      "primaryDungeon" : "gnomefleet",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/sovietcosmonautship",
+    "value" : {
+      "primaryDungeon" : "sovietcosmonautship",
+    "threatLevel" : 1,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/tranquility-base.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/eyefortress",
+    "value" : {
+    "primaryDungeon" : "eyefortress",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/miniknogship",
+    "value" : {
+    "primaryDungeon" : "miniknogship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/alpacaship",
+    "value" : {
+    "primaryDungeon" : "alpacaship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/penguinufo",
+    "value" : {
+    "primaryDungeon" : "penguinufo",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/industrialpirateship",
+    "value" : {
+    "primaryDungeon" : "industrialpirateship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/astropirateship",
+    "value" : {
+    "primaryDungeon" : "astropirateship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/agaranpirateship",
+    "value" : {
+    "primaryDungeon" : "agaranpirateship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/brainslugresearchship",
+    "value" : {
+    "primaryDungeon" : "brainslugresearchship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/floranastronautship",
+    "value" : {
+    "primaryDungeon" : "floranastronautship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/hylotlmecha",
+    "value" : {
+    "primaryDungeon" : "hylotlmecha",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/cyberspaceship",
+    "value" : {
+    "primaryDungeon" : "cyberspaceship",
+    "threatLevel" : 4,
+    "globalDirectives" : [
+        "?fade=000000=1.0?scanlines=51BD51FF;0.1;000000FF;1.0?border=2;51BD51FF;51BD5100",
+        "?fade=000000=1.0?scanlines=51BDBDFF;0.1;000000FF;1.0?border=2;51BDBDFF;51BD5100",
+        "?fade=000000=1.0?scanlines=5151BDFF;0.1;000000FF;1.0?border=2;5151BDFF;51BD5100",
+        "?fade=000000=1.0?scanlines=BD51BDFF;0.1;000000FF;1.0?border=2;BD51BDFF;51BD5100",
+        "?fade=000000=1.0?scanlines=BD5151FF;0.1;000000FF;1.0?border=2;BD5151FF;51BD5100",
+        "?fade=000000=1.0?scanlines=BDBD51FF;0.1;000000FF;1.0?border=2;BDBD51FF;51BD5100"
+      ],
+    "gravity" : 80,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [128, 128, 128],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/the-peacekeepers.ogg",
+    "environmentStatusEffects" : ["dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "cyberspace"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/unique_houseinspace",
+    "value" : {
+      "primaryDungeon" : "unique_houseinspace",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/unique_snowmanship",
+    "value" : {
+    "primaryDungeon" : "unique_snowmanship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/unique_perfection",
+    "value" : {
+    "primaryDungeon" : "unique_perfection",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/unique_roguesatellite",
+    "value" : {
+    "primaryDungeon" : "unique_roguesatellite",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [32, 32, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/lava-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+  }
+
+
+]
+

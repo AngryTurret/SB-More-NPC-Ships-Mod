@@ -1,0 +1,878 @@
+[
+
+  {
+    "op" : "add",
+    "path" : "/spacemerchant",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "spacemerchant",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/deadbeatship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "deadbeatship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/froggship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "froggship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/stationship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "stationship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/astronautship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "astronautship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/spacetrain",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "spacetrain",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/fcultistship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "fcultistship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/steamspringship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "steamspringship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/gnomefleet",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "gnomefleet",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/sovietcosmonautship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "sovietcosmonautship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/eyefortress",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "eyefortress",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/miniknogship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "miniknogship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/alpacaship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "alpacaship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/penguinufo",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "penguinufo",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/industrialpirateship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "industrialpirateship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/astropirateship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "astropirateship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/agaranpirateship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "agaranpirateship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/brainslugresearchship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "brainslugresearchship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/floranastronautship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "floranastronautship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+{
+    "op" : "add",
+    "path" : "/hylotlmecha",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "hylotlmecha",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/cyberspaceship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "cyberspaceship",
+    "spawningEnabled" : false,
+    "beamUpRule" : "AnywhereWithWarning",
+    "disableDeathDrops" : true,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "atmospheric",
+      "skyColoring" : {
+        "mainColor" : [0, 0, 0],
+
+        "morningColors" : [[0, 0, 0], [0, 0, 0]],
+        "dayColors" : [[0, 0, 0], [0, 0, 0]],
+        "eveningColors" : [[0, 0, 0], [0, 0, 0]],
+        "nightColors" : [[0, 0, 0], [0, 0, 0]],
+
+        "morningLightColor" : [195, 156, 149],
+        "dayLightColor" : [197, 184, 182],
+        "eveningLightColor" : [197, 98, 126],
+        "nightLightColor" : [28, 14, 14]
+      }
+    }
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/unique_houseinspace",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "unique_houseinspace",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/unique_snowmanship",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "unique_snowmanship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/unique_perfection",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "unique_perfection",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  },
+
+ {
+    "op" : "add",
+    "path" : "/unique_roguesatellite",
+    "value" : {
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "unique_roguesatellite",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [200, 200, 255],
+
+        "morningColors" : [[200, 200, 255], [200, 200, 255]],
+        "dayColors" : [[200, 200, 255], [200, 200, 255]],
+        "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+        "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+        "morningLightColor" : [120, 120, 120],
+        "dayLightColor" : [120, 120, 120],
+        "eveningLightColor" : [120, 120, 120],
+        "nightLightColor" : [120, 120, 120]
+      }
+    }
+    }
+  }
+
+
+  ]

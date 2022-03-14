@@ -1,0 +1,122 @@
+[
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.25, "spacemerchant" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "deadbeatship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "froggship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.08, "stationship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.06, "astronautship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.06, "spacetrain" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.02, "fcultistship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.06, "steamspringship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.02, "gnomefleet" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.01, "sovietcosmonautship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.02, "eyefortress" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.08, "miniknogship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "alpacaship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.15, "penguinufo" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.06, "industrialpirateship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.06, "astropirateship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "agaranpirateship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.01, "brainslugresearchship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "floranastronautship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.04, "hylotlmecha" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.005, "unique_houseinspace" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.005, "unique_snowmanship" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.005, "unique_perfection" ]
+  },
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [ 0.005, "unique_roguesatellite" ]
+  }
+  ]
