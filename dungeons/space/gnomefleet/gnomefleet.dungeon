@@ -1,0 +1,55 @@
+{
+  "metadata" : {
+    "name" : "gnomefleet",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "gnomefleet_1", "gnomefleet_2", "gnomefleet_3" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // GNOME FLEET
+
+    {
+      "name" : "gnomefleet_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "gnomefleet_1" ] ]
+      ],
+      "def" : [ "tmx", "gnomefleet_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "gnomefleet_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "gnomefleet_2" ] ]
+      ],
+      "def" : [ "tmx", "gnomefleet_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "gnomefleet_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "gnomefleet_3" ] ]
+      ],
+      "def" : [ "tmx", "gnomefleet_3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
