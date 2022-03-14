@@ -1,0 +1,50 @@
+{
+  // encounter-specific containers
+
+  "mnpcs_cyberspaceChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "valuableTreasure"},
+        {"item" : [ "techcard", 1]}
+      ]
+    }]
+  ],
+
+  "mnpcs_perfectChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "perfectlygenericitem", 5]},
+        {"item" : [ "mnpcs_uniqueperfecthat", 1]}
+      ]
+    }]
+  ],
+
+  "mnpcs_snowmanChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "refinedferozium", 2]},
+        {"item" : [ "cryonicextract", 1]},
+        {"item" : [ "mnpcs_uniquesnowmanhat", 1]}
+      ]
+    }]
+  ],
+
+  "mnpcs_houseChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "redtoyblock", 50]},
+        {"item" : [ "noveltybanana", 1]},
+        {"item" : [ "mnpcs_uniquehousehat", 1]}
+      ]
+    }]
+  ],
+
+  "mnpcs_satelliteChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "staticcell", 1]},
+        {"item" : [ "mnpcs_uniquesatellitehat", 1]}
+      ]
+    }]
+  ]
+}
