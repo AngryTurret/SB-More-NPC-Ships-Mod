@@ -1,0 +1,151 @@
+{
+  "metadata" : {
+    "name" : "spacemerchant",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "foundryship_1", "prismship_1", "saloonship_1", "glowship_1", "giantflowership_1", "geodeship_1", "shroomship_1", "scrappership_1", "printcoship_1", "fountainship_1", "steampunkship_1", "industrialship_1", "astroship_1", "springship_1", "fakeship_1" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 2,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // MERCHANT SHIP
+
+    {
+      "name" : "foundryship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "foundryship_1" ] ]
+      ],
+      "def" : [ "tmx", "foundryship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "prismship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "prismship_1" ] ]
+      ],
+      "def" : [ "tmx", "prismship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "saloonship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "saloonship_1" ] ]
+      ],
+      "def" : [ "tmx", "saloonship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "glowship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "glowship_1" ] ]
+      ],
+      "def" : [ "tmx", "glowship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "geodeship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "geodeship_1" ] ]
+      ],
+      "def" : [ "tmx", "geodeship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "shroomship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "shroomship_1" ] ]
+      ],
+      "def" : [ "tmx", "shroomship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "scrappership_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "scrappership_1" ] ]
+      ],
+      "def" : [ "tmx", "scrappership_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "fountainship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "fountainship_1" ] ]
+      ],
+      "def" : [ "tmx", "fountainship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "printcoship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "printcoship_1" ] ]
+      ],
+      "def" : [ "tmx", "printcoship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "giantflowership_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "giantflowership_1" ] ]
+      ],
+      "def" : [ "tmx", "giantflowership_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "steampunkship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "steampunkship_1" ] ]
+      ],
+      "def" : [ "tmx", "steampunkship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "industrialship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "industrialship_1" ] ]
+      ],
+      "def" : [ "tmx", "industrialship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "astroship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "astroship_1" ] ]
+      ],
+      "def" : [ "tmx", "astroship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "springship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "springship_1" ] ]
+      ],
+      "def" : [ "tmx", "springship_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "fakeship_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "fakeship_1" ] ]
+      ],
+      "def" : [ "tmx", "fakeship_1.json" ],
+      "chance" : 0.1
+    }
+  ]
+}
