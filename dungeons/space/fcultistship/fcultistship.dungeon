@@ -1,0 +1,110 @@
+{
+  "metadata" : {
+    "name" : "fcultistship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "fcultistback_1", "fcultistback_2", "fcultistback_3" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+     // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // FRIENDLY CULTIST SHIP
+
+    {
+      "name" : "fcultistback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistback_1" ] ]
+      ],
+      "def" : [ "tmx", "fcultistback_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "fcultistback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistback_2" ] ]
+      ],
+      "def" : [ "tmx", "fcultistback_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "fcultistback_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistback_3" ] ]
+      ],
+      "def" : [ "tmx", "fcultistback_3.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "fcultistmiddle_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistmiddle_1", "fcultistmiddle_2", "fcultistmiddle_3", "fcultistmiddle_4" ] ]
+      ],
+      "def" : [ "tmx", "fcultistmiddle_1.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "fcultistmiddle_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistmiddle_1", "fcultistmiddle_2", "fcultistmiddle_3", "fcultistmiddle_4" ] ]
+      ],
+      "def" : [ "tmx", "fcultistmiddle_2.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "fcultistmiddle_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistmiddle_1", "fcultistmiddle_2", "fcultistmiddle_3", "fcultistmiddle_4" ] ]
+      ],
+      "def" : [ "tmx", "fcultistmiddle_3.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "fcultistmiddle_4",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistmiddle_1", "fcultistmiddle_2", "fcultistmiddle_3", "fcultistmiddle_4" ] ]
+      ],
+      "def" : [ "tmx", "fcultistmiddle_4.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "fcultistfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistfront_1" ] ]
+      ],
+      "def" : [ "tmx", "fcultistfront_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "fcultistfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistfront_2" ] ]
+      ],
+      "def" : [ "tmx", "fcultistfront_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "fcultistfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "fcultistfront_3" ] ]
+      ],
+      "def" : [ "tmx", "fcultistfront_3.json" ],
+      "chance" : 0.3
+    }  ]
+}
