@@ -45,8 +45,7 @@ As long as devs don't change any existing dungeon mechanics and such, this mod i
 As far as I know, it is. However, there is one bug when you enter an NPC ship and SAIL says there is no oxygen. It occurs on vanilla ships as well, so I guess it's a problem with FU, not this mod.
 - What happens if I uninstall this mod?
 All dungeons are based on vanilla content, so it shouldn't change anything in your game. New ships will simply stop spawning, leaving only default ships, anomalies and stations to explore.
-- Is this mod still supported?
-Well, not always. I don't have much time to update it constantly, and I'm not very experienced with Starbound modding either. But if there is a possibility to add new dungeons or improve the existing ones, I try to do it.
+- Is there anywhere else I can download this mod?
+You can [subscribe to Steam Workshop version here](https://steamcommunity.com/sharedfiles/filedetails/?id=1390490083).
 
 This is my first dungeon mod, report any bugs or issues.
-You can [subscribe to Steam Workshop version here](https://steamcommunity.com/sharedfiles/filedetails/?id=1390490083).
