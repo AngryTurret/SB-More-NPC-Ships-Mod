@@ -1,0 +1,71 @@
+{
+  "metadata" : {
+    "name" : "steamspringship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "steamback_1", "steamback_2" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // STEAMPUNK SHIP
+
+    {
+      "name" : "steamback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "steamback_1" ] ]
+      ],
+      "def" : [ "tmx", "steamback_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "steamback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "steamback_2" ] ]
+      ],
+      "def" : [ "tmx", "steamback_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "steamfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "steamfront_1", "steamfront_2", "steamfront_3" ] ]
+      ],
+      "def" : [ "tmx", "steamfront_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "steamfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "steamfront_1", "steamfront_2", "steamfront_3" ] ]
+      ],
+      "def" : [ "tmx", "steamfront_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "steamfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "steamfront_1", "steamfront_2", "steamfront_3" ] ]
+      ],
+      "def" : [ "tmx", "steamfront_3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
