@@ -1,0 +1,127 @@
+{
+  "metadata" : {
+    "name" : "deadbeatship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "deadbeatback_1", "deadbeatback_2", "deadbeatback_3", "deadbeatback_4", "deadbeatback_5", "deadbeatback_6" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // DEADBEAT SHIP
+
+    {
+      "name" : "deadbeatback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_1" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_1.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_2" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_2.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatback_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_3" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_3.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatback_4",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_4" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_4.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatback_5",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_5" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_5.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatback_6",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatback_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatback_6.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_1.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_2.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_3.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_4",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_4.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_5",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_5.json" ],
+      "chance" : 0.2
+    },
+    {
+      "name" : "deadbeatfront_6",
+      "rules" : [
+        [ "doNotCombineWith", [ "deadbeatfront_1", "deadbeatfront_2", "deadbeatfront_3", "deadbeatfront_4", "deadbeatfront_5", "deadbeatfront_6" ] ]
+      ],
+      "def" : [ "tmx", "deadbeatfront_6.json" ],
+      "chance" : 0.2
+    }
+  ]
+}
