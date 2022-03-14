@@ -1,0 +1,39 @@
+{
+  "objectName" : "mnpcs_virtual1",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "price" : 3000,
+  "rarity" : "Legendary",
+  "description" : "This device creates virtual maps mimicking spaceship interiors.",
+  "shortdescription" : "Spaceship Simulator",
+
+  "apexDescription" : "This computer creates digital spaceship models. I wonder what they are for.",
+  "avianDescription" : "Is this some sort of a virtual reality device? Count me in!",
+  "floranDescription" : "Floran ssees funny ssspaceships on the screen.",
+  "glitchDescription" : "Neutral. This machine runs a spaceship simulation software.",
+  "humanDescription" : "This computer creates virtual spaceships. Or should I say cyberspaceships?",
+  "hylotlDescription" : "This computer seems to run simulations of various spaceships.",
+  "novakidDescription" : "Digital spaceships? Ain't the real ones better?",
+
+  "category" : "teleporter",
+  "lightColor" : [148, 13, 90],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/cyberspaceshipwarp.config",
+
+  "inventoryIcon" : "mnpcs_virtual1icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mnpcs_virtual1.png:<color>", "fullbright" : true }, { "image" : "mnpcs_virtual1lit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ]
+}
