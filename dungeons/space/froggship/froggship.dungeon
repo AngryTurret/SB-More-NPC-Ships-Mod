@@ -1,0 +1,79 @@
+{
+  "metadata" : {
+    "name" : "froggship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "froggback_1", "froggback_2", "froggback_3" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // FROGG AND AGARAN MERCHANT SHIP
+
+    {
+      "name" : "froggback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggback_1" ] ]
+      ],
+      "def" : [ "tmx", "froggback_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "froggback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggback_2" ] ]
+      ],
+      "def" : [ "tmx", "froggback_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "froggback_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggback_3" ] ]
+      ],
+      "def" : [ "tmx", "froggback_3.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "froggfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggfront_1", "froggfront_2", "froggfront_3" ] ]
+      ],
+      "def" : [ "tmx", "froggfront_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "froggfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggfront_1", "froggfront_2", "froggfront_3" ] ]
+      ],
+      "def" : [ "tmx", "froggfront_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "froggfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "froggfront_1", "froggfront_2", "froggfront_3" ] ]
+      ],
+      "def" : [ "tmx", "froggfront_3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
