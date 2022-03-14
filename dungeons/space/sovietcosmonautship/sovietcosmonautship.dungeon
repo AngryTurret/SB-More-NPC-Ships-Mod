@@ -1,0 +1,79 @@
+{
+  "metadata" : {
+    "name" : "sovietcosmonautship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "sovietback_1", "sovietback_2", "sovietback_3" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // SOVIET SHIP
+
+    {
+      "name" : "sovietback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietback_1" ] ]
+      ],
+      "def" : [ "tmx", "sovietback_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "sovietback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietback_2" ] ]
+      ],
+      "def" : [ "tmx", "sovietback_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "sovietback_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietback_3" ] ]
+      ],
+      "def" : [ "tmx", "sovietback_3.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "sovietfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietfront_1", "sovietfront_2", "sovietfront_3" ] ]
+      ],
+      "def" : [ "tmx", "sovietfront_1.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "sovietfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietfront_1", "sovietfront_2", "sovietfront_3" ] ]
+      ],
+      "def" : [ "tmx", "sovietfront_2.json" ],
+      "chance" : 0.3
+    },
+    {
+      "name" : "sovietfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "sovietfront_1", "sovietfront_2", "sovietfront_3" ] ]
+      ],
+      "def" : [ "tmx", "sovietfront_3.json" ],
+      "chance" : 0.3
+    }
+  ]
+}
