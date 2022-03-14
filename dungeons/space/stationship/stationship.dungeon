@@ -1,0 +1,143 @@
+{
+  "metadata" : {
+    "name" : "stationship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "stationback_1", "stationback_2", "stationback_3", "stationback_virtual" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 4,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // CARGO SHIP
+
+    {
+      "name" : "stationback_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationback_1" ] ]
+      ],
+      "def" : [ "tmx", "stationback_1.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "stationback_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationback_2" ] ]
+      ],
+      "def" : [ "tmx", "stationback_2.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "stationback_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationback_3" ] ]
+      ],
+      "def" : [ "tmx", "stationback_3.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "stationback_virtual",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationback_virtual" ] ]
+      ],
+      "def" : [ "tmx", "stationback_virtual.json" ],
+      "chance" : 0.25
+    },
+    {
+      "name" : "stationfront_1",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_2",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_2.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_3",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_3.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_4",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_4.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_5",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_5.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_6",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_6.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_7",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_7.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_8",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_8.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_9",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_9.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "stationfront_10",
+      "rules" : [
+        [ "doNotCombineWith", [ "stationfront_1", "stationfront_2", "stationfront_3", "stationfront_4", "stationfront_5", "stationfront_6", "stationfront_7", "stationfront_8", "stationfront_9", "stationfront_10" ] ]
+      ],
+      "def" : [ "tmx", "stationfront_10.json" ],
+      "chance" : 0.1
+    }
+  ]
+}
