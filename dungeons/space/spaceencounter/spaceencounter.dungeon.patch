@@ -1,0 +1,462 @@
+[
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-low1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-low2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-low3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-low3.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-low4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-low4.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-low5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-low5.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-mid1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-mid2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-mid3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-mid3.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-mid4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-mid4.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-mid5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-mid5.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-high1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-high2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-high3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-high3.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-high4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-high4.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-smallgroup-penguin-high5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-smallgroup-penguin-high5.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-low1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-low1.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-low2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-low2.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-low3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-low3.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-low4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-low4.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-low5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-low5.json" ],
+      "maximumThreatLevel" : 3.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-mid1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-mid1.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-mid2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-mid2.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-mid3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-mid3.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-mid4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-mid4.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-mid5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-mid5.json" ],
+      "minimumThreatLevel" : 4,
+      "maximumThreatLevel" : 4.9,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-high1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-high1.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-high2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-high2.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-high3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-high3.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-high4",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-high4.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "mnpcs-largegroup-penguin-high5",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/mnpcs_hazards/mnpcs_monstergroups/mnpcs-largegroup-penguin-high5.json" ],
+      "minimumThreatLevel" : 5,
+      "chance" : 0.25,
+      "markDungeonId" : false
+    }	
+}
+]
