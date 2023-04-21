@@ -29,6 +29,14 @@
   },
   { "op" : "add",
 	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_spaceminidrone"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
 	"value" : "mnpcs_bombox"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_bomboxnoisy"
   }
 ]
