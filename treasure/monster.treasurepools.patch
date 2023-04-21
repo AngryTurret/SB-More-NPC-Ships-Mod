@@ -1,0 +1,39 @@
+[
+  {"op" : "add",
+   "path" : "/mnpcs_spaceeyeTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.5, "pool" : "money"},
+	    {"weight" : 0.25, "item" : "biosample"},
+	    {"weight" : 0.25, "item" : ["eyepiles", 5]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : true
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/mnpcs_spacebomboxTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.10, "pool" : "money"},
+	    {"weight" : 0.01, "pool" : "instrument"},
+	    {"weight" : 0.05, "item" : "stickofram"},
+	    {"weight" : 0.05, "item" : "siliconboard"},
+	    {"weight" : 0.05, "item" : "wire"},
+	    {"weight" : 0.75, "pool" : "salvageComponent"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.75, 1]
+      ],
+      "allowDuplication" : true
+    }]
+   ]		
+  }
+]

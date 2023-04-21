@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_penguinpunisher",
+  "category" : "mnpcs_penguinpunisher",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_penguinpunisher.png",
+    "bodyfullbright" : "mnpcs_penguinpunisherfullbright.png"
+  }
+}

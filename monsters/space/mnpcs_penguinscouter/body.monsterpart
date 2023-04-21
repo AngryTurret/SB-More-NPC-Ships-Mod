@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_penguinscouter",
+  "category" : "mnpcs_penguinscouter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_penguinscouter.png",
+    "bodyfullbright" : "mnpcs_penguinscouterfullbright.png"
+  }
+}

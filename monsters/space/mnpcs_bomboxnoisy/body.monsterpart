@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_bomboxnoisy",
+  "category" : "mnpcs_bomboxnoisy",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_bomboxnoisy.png",
+    "bodyfullbright" : "mnpcs_bomboxnoisyfullbright.png"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [29, 1],
+    "names" : [
+      [ null, "invis.1", "invis.2", "invis.3", "invis.4", "invis.5", "invis.6", "invis.7", "invis.8", null, "reveal.1", "reveal.2", "reveal.3", "reveal.4", "reveal.5", "reveal.6", "reveal.7", "reveal.8", null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7", "idle.8", null, "hurt.1" ]
+    ]
+  },
+  "aliases" : {
+    "hide.1" : "reveal.8",
+    "hide.2" : "reveal.7",
+    "hide.3" : "reveal.6",
+    "hide.4" : "reveal.5",
+    "hide.5" : "reveal.4",
+    "hide.6" : "reveal.3",
+    "hide.7" : "reveal.2",
+    "hide.8" : "reveal.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_bombox",
+  "category" : "mnpcs_bombox",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_bombox.png",
+    "bodyfullbright" : "mnpcs_bomboxfullbright.png"
+  }
+}

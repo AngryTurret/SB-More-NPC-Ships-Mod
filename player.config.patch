@@ -1,0 +1,34 @@
+[
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_penguinscouter"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_penguinravager"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_penguinpunisher"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_chiroptangle"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_eyeborg"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_tearrorist"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_retinorb"
+  },
+  { "op" : "add",
+	"path" : "/deploymentConfig/enemyDetectTypeNames/-",
+	"value" : "mnpcs_bombox"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_eyeborg",
+  "category" : "mnpcs_eyeborg",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_eyeborg.png",
+    "bodyfullbright" : "mnpcs_eyeborgfullbright.png"
+  }
+}

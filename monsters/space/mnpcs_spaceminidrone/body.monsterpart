@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_spaceminidrone",
+  "category" : "mnpcs_spaceminidrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_spaceminidrone.png",
+    "bodyfullbright" : "mnpcs_spaceminidronefullbright.png"
+  }
+}

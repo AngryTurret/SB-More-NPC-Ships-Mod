@@ -1,0 +1,18 @@
+{
+  "projectileName" : "mnpcs_eyeborgtear",
+  "image" : "mnpcs_eyeborgtear.png",
+  "animationCycle" : 0.1,
+  "animationLoops" : false,
+  "lightColor" : [0, 90, 120],
+  "frameNumber" : 1,
+  "flippable" : false,
+  "fullbright" : true,
+  "renderLayer" : "Monster+1",
+  "damageKindImage" : "icon.png",
+  "physics" : "laser",
+  "emitters" : [ ],
+  "damageKind" : "plasma",
+
+  "speed" : 35,
+  "timeToLive" : 4.0
+}

@@ -1,0 +1,30 @@
+{
+  "projectileName" : "mnpcs_bomboxnotefalse",
+  "image" : "mnpcs_bomboxnotefalse.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.01,
+  "power" : 60,
+  "damageKind" : "plasma",
+  "actionOnReap" : [
+    {
+      "action" : "option",
+      "options" : [
+        {
+          "action" : "projectile",
+          "type" : "mnpcs_bomboxnotefalse1",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 0.5,
+          "inheritSpeedFactor" : 1
+        },
+        {
+          "action" : "projectile",
+          "type" : "mnpcs_bomboxnotefalse2",
+          "fuzzAngle" : 20,
+          "inheritDamageFactor" : 1,
+          "inheritSpeedFactor" : 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_batterymimic",
+  "category" : "mnpcs_batterymimic",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_batterymimic.png",
+    "bodyfullbright" : "mnpcs_batterymimicfullbright.png"
+  }
+}

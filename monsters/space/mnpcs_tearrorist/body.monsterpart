@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_tearrorist",
+  "category" : "mnpcs_tearrorist",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_tearrorist.png",
+    "bodyfullbright" : "mnpcs_tearroristfullbright.png"
+  }
+}

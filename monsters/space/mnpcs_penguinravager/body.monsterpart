@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_penguinravager",
+  "category" : "mnpcs_penguinravager",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_penguinravager.png",
+    "bodyfullbright" : "mnpcs_penguinravagerfullbright.png"
+  }
+}

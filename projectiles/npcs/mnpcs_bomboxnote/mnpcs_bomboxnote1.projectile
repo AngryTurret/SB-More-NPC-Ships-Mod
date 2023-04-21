@@ -1,0 +1,15 @@
+{
+  "projectileName" : "mnpcs_bomboxnote1",
+  "image" : "mnpcs_bomboxnote1.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "flippable" : false,
+  "fullbright" : true,
+  "renderLayer" : "Monster-5",
+  "physics" : "laser",
+  "emitters" : [ ],
+  "damageKind" : "plasma",
+  "power" : 15,
+  "speed" : 0,
+  "timeToLive" : 3.0
+}

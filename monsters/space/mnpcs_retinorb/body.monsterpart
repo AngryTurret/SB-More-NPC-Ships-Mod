@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_retinorb",
+  "category" : "mnpcs_retinorb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_retinorb.png",
+    "bodyfullbright" : "mnpcs_retinorbfullbright.png"
+  }
+}

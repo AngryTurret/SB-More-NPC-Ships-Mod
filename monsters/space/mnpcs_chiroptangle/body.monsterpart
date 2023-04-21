@@ -1,0 +1,10 @@
+{
+  "name" : "mnpcs_chiroptangle",
+  "category" : "mnpcs_chiroptangle",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mnpcs_chiroptangle.png",
+    "bodyfullbright" : "mnpcs_chiroptanglefullbright.png"
+  }
+}
