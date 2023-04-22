@@ -1,7 +1,7 @@
 {
   "type" : "mnpcs_penguinscouter",
   "shortdescription" : "Penguin Scouter",
-  "description" : "Unless you are a Penguin, there is no way you will fit in this whimsical vehicle.",
+  "description" : "Unless you are a Penguin, there is no way you will fit into this whimsical vehicle.",
 
   "categories" : [ "mnpcs_penguinscouter" ],
   "parts" : [ "body" ],
