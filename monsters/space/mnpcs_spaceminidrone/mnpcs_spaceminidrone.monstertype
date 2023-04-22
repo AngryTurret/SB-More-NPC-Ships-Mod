@@ -1,7 +1,7 @@
 {
   "type" : "mnpcs_spaceminidrone",
   "shortdescription" : "Space Minidrone",
-  "description" : "A Miniknog drone model designed to endure the space vacuum.",
+  "description" : "A Miniknog drone model designed to endure the vacuum of space.",
 
   "categories" : [ "mnpcs_spaceminidrone" ],
   "parts" : [ "body" ],
