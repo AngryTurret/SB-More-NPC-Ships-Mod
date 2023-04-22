@@ -1,7 +1,7 @@
 {
   "type" : "mnpcs_batterymimic",
   "shortdescription" : "Battery Mimic",
-  "description" : "Three guesses why this is one of the most hated inventions among mech pilots.",
+  "description" : "Three guesses as to why this is one of the most hated inventions among mech pilots.",
 
   "categories" : [ "mnpcs_batterymimic" ],
   "parts" : [ "body" ],
