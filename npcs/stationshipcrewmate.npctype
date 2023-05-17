@@ -74,11 +74,11 @@
             "I miss flying aboard airships. Spaceships are cool, too, but it's not quite the same.",
             "This suit is too itchy, and I cannot even scratch myself properly. What a bummer.",
             "Working aboard a cargo spaceship is not easy, but at least you get to see new exciting places.",
-            "The news about the Ruin's awakening is terrifying at best. What if it decides to devour other planets too?",
-            "I heard that our colleagues got raided by penguin pirates. When will those featherless fiends stop violence?",
+            "The news about what attacked Earth is terrifying at best. What if it decides to devour other planets too?",
+            "I heard that our colleagues got raided by penguin pirates. When will those featherless fiends stop their violence?",
             "Once I went into space, I found it hard to keep believing in Kluex. The universe is fascinating on its own, I'm not sure if we have to make up any gods at all.",
             "Do you like our space vessel? I do my best to keep her in shape.",
-            "Midnight planets are uncanny. Why are they always so dark? Is this some kind of a curse?"
+            "Midnight planets are uncanny. Why are they always so dark? Is it some kind of a curse?"
           ]
         },
         "glitch" : {
@@ -88,13 +88,13 @@
             "Determined. I have come to space to find a professional trade. One day I shall be <selfname>, master engineer!",
             "Excited. I can't wait to land on yet another planet! I want to see as many strange alien creatures as I can!",
             "Brooding. I miss seeing the grand castles of my people. Space stations and ships are not very aesthetical, to be honest.",
-            "Worried. Now I am in space, I feel so miniscule. How will I make my mark when I matter so little?",
+            "Worried. Now that I am in space, I feel so miniscule. How will I make my mark when I matter so little?",
             "Amicable. Welcome, spacefarer! I am <selfname>. I wish you well on your travels.",
             "Curious. Have you always known about space travel? Did you always dream about venturing through the stars?",
             "Cheerful. Hello! I'm glad to meet you!",
             "Annoyed. I stared in a window for a while and saw nothing but stars and darkness. Space is not as diverse as some say.",
-            "Worried. Do brain slugs affect Glitch as well? I wouldn't like to become their host and lose my free will again.",
-            "Skeptical. What is the reason behind toxic planets' existence? What kind of a civilization was so irresponsible to ruin many beautiful worlds?",
+            "Worried. Do brain slugs affect Glitch as well? I wouldn't like to become their host and lose my free will.",
+            "Skeptical. What is the reason behind toxic planets' existence? What kind of a civilization was so irresponsible to ruin so many beautiful worlds?",
             "Thrilled. If our universe has a border somewhere, then what lies beyond it? Is it a part of something even bigger? What do you think?",
             "Concerned. Beware the All-Seeing Crusaders. They became more prominent and built flying fortresses. I wonder what they're up to.",
             "Opinionated. Beautiful Attempt! is an overrated mess. Change my mind.",
@@ -125,7 +125,7 @@
             "To be so small compared to the great scale of all existence... Does space also make you feel insignificant?",
             "As much as I mourn the loss of Earth, I don't believe that the Protectorate could protect us from similar disasters anyway.",
             "In space, it is important to keep oneself healthy, both physically and mentally. Never forget it.",
-            "One day I will obtain my own shuttle and fly wherever I want, just like you. I don't want to waste my life packing those rusty crates.",
+            "One day I will obtain my own shuttle and fly wherever I want, just like you. I don't want to waste my life packing these rusty crates.",
             "Be grateful that our captain chose to let you in. We don't usually let anyone run around the decks of our spacecraft."
           ]
         },
@@ -199,3 +199,4 @@
     ]
   }
 }
+
